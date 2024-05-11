@@ -1,0 +1,77 @@
+.custom-bg{
+    background-color: #C70039;
+}
+.font-color{
+    color: #442C2E;
+}
+.admin .card:hover{
+    background: #e2e2e2;
+    cursor: pointer;
+}
+.admin .card{
+    border:1px solid #C70039 ;
+}
+.list-group-item.active{
+    background-color: #C70039 ;
+    border-color: #C70039 ;
+}
+
+.list-group-item-action.active {
+    background-color: #C70039 ;
+    border-color: #C70039 ;
+}
+
+.discount-label{
+    font-size:10px!important;
+    font-style:italic!important;
+    //text-decoration: line-through!important;
+}
+
+/*toast*/
+
+#toast{
+    min-width: 300px;
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -120px;
+    margin:auto;
+    background: #333;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    font-size: 18px;
+    visibility: hidden;
+    box-shadow: 0px 0px 100px #000;
+}
+
+#toast.display{
+    visibility: visible;
+    animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
+}
+
+@keyframes fadeIn{
+    from{
+        bottom: 0;
+        opacity: 0;
+    }
+    to{
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+/*data and time and css*/
+.dt{
+    background-color: #ffffff; /* Set your desired background color */
+            padding: 10px;
+            text-align: center;
+            color: #333; /* Set your desired text color */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#datetime {
+            font-size: 15px;
+}
+/*end date and time css*/
+
